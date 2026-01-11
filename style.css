@@ -96,6 +96,13 @@ a {
     margin-bottom: 20px;
 }
 
+.hero-image img {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
 
 
 /* ---------------About Me Section---------------- */
@@ -269,6 +276,131 @@ a {
 /* -----------------Contact Section----------------- */
 
 
+.contact-section {
+    padding: 80px ;
+    background-color: #ffffff;
+}
+
+.contact-section h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    color: #1e293b;
+}
+
+
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.contact-form {
+    flex: 2; 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-group label {
+    font-weight: 600;
+    color: #334155;
+    font-size: 14px;
+}
+
+.input-group input, 
+.input-group textarea {
+    padding: 12px 15px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f8fafc;
+}
+
+.input-group textarea {
+    height: 150px;
+}
+
+
+.send-btn {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.send-btn:hover {
+   background-color: rgb(43, 50, 242);
+    -webkit-box-shadow: -2px 9px 17px 2px rgba(0,0,0,0.33); 
+    box-shadow: -2px 9px 17px 2px rgba(0,0,0,0.33);
+    cursor: pointer;
+}
+
+
+
+.contact-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-info h4 {
+    font-size: 20px;
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.info-item {
+    color: #64748b;
+    font-size: 16px;
+}
+
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #2563eb;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.social-icon:hover {
+    background-color: rgb(43, 50, 242);
+    -webkit-box-shadow: -2px 9px 17px 2px rgba(0,0,0,0.33); 
+    box-shadow: -2px 9px 17px 2px rgba(0,0,0,0.33);
+    cursor: pointer;
+}
+
+
+
+
 /* ----------------Footer -------------------- */
 
 footer {
@@ -281,3 +413,6 @@ footer {
     align-items: center;  
     justify-content: center; 
 }
+
+
+/* ---------- responsive Design */
