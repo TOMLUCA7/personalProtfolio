@@ -20,12 +20,14 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    -webkit-box-shadow: 2px 12px 36px 5px rgba(0,0,0,0.49); 
-    box-shadow: 2px 12px 36px 5px rgba(0,0,0,0.49);
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    /* position: sticky; */
+    top: 0;
+    z-index: 1000;
 }
 
 .logo {
-    color: rgb(37, 150, 243);
+    color: #2563eb;
     font-size: 25px;
     margin-left: 40px;
     margin-top: 10px;
@@ -37,6 +39,7 @@ nav {
     padding: 10px;
     gap: 20px;
     font-size: 15px;
+    padding-right: 80px;
 }
 
 a {
@@ -415,4 +418,7 @@ footer {
 }
 
 
-/* ---------- responsive Design */
+/* ---------- responsive Design -----------------*/
+
+
+
