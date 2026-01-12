@@ -33,6 +33,9 @@ body {
     margin-top: 10px;
 }
 
+.hamburger {
+    display: none;
+}
 
 nav {
     display: flex;
@@ -422,6 +425,50 @@ footer {
 /* ---------- responsive Design -----------------*/
 
 @media (max-width: 768px) {
+
+    /* ---------------NavBar Section--------------- */
+
+    .header {
+        position: relative;
+    }
+
+    .nav-container {
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+
+    .hamburger {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: white;
+        flex-direction: column;
+        width: 200px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        border-radius: 0 0 8px 8px;
+        padding: 10px 0;
+        z-index: 1000;
+    }
+
+    .nav a {
+        padding: 15px 20px;
+        text-decoration: none;
+        color: #1e293b;
+        display: block;
+        border-bottom: 1px solid #f1f5f9;
+    }
+
+    .nav-container:hover .nav {
+        display: flex;
+    }
+    
 
     /* ---------------Hero Section---------------- */
 
