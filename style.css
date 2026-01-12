@@ -216,12 +216,11 @@ a {
 
 .projects-grid {
     display: flex;
-    /* justify-content: space-between; */
-    flex-direction: row;
-    gap: 1px;
-    align-items: center;
-    margin-left: 130px;
-    margin-right: 130px;
+    flex-direction: row;     
+    flex-wrap: wrap;         
+    justify-content: center; 
+    gap: 30px;               
+    width: 100%;            
 }
 
 .project-card {
@@ -399,6 +398,8 @@ a {
     -webkit-box-shadow: -2px 9px 17px 2px rgba(0,0,0,0.33); 
     box-shadow: -2px 9px 17px 2px rgba(0,0,0,0.33);
     cursor: pointer;
+    width: 45px;
+    height: 45px;
 }
 
 
@@ -420,5 +421,43 @@ footer {
 
 /* ---------- responsive Design -----------------*/
 
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column; 
+        text-align: center;
+        padding: 30px 40px;
+        display: flex;
+        align-items: center;
+        height: auto;
+    }
 
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        margin-bottom: 0px; 
+    }
 
+    .hero-content h1 {
+        font-size: 2.2rem;
+        margin-bottom: 5px;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+        max-width: 100%; 
+    }
+
+    .hero-content button {
+        width: 50%;
+    }
+
+     .hero-image {
+        margin-right: 0;
+    }
+
+    .hero-image img {
+        width: 200px;
+        height: 200px;
+    }
+}
