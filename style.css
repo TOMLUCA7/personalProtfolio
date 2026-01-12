@@ -422,6 +422,9 @@ footer {
 /* ---------- responsive Design -----------------*/
 
 @media (max-width: 768px) {
+
+    /* ---------------Hero Section---------------- */
+
     .hero {
         flex-direction: column; 
         text-align: center;
@@ -459,5 +462,64 @@ footer {
     .hero-image img {
         width: 200px;
         height: 200px;
+    }
+
+    /* ---------------About Me Section---------------- */
+
+    .about-section {
+        flex-direction: column; 
+        text-align: center;
+        padding: 30px 40px;
+        display: flex;
+        align-items: center;
+        height: auto;
+    }
+
+    .about-text {
+        margin-bottom: 50px;
+    }
+
+    .about-text h2 {
+        font-size: 2.2rem;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+     .about-text p {
+        width: 100%;
+    }
+
+    .skills-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .skills-container h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .skills-list {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .skill-item {
+        width: 100%;
+        gap: 70px;
+    }
+
+    .skill-name {
+        width: 90px;
+    }
+
+    .progress-bar {
+        flex: 1;
+        height: 6px;
+    }
+
+    .progress-fill {
+        height: 100%;
     }
 }
