@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="output.css">
 </head>
-    <body class="">
+    <body class="min-h-screen">
         <!-- Header Nav Bar -->
         <header class="bg-white justify-between flex py-7 top-0 z-10 shadow-xl">
             <h1 class="text-[#2563eb] text-3xl ml-20">Tom Mizrahi</h1>
@@ -28,14 +28,23 @@
         <main>
 
             <!-- Title Section -->
-            <section id="home" class="hero">
-                <div class="hero-content">
-                    <h1>Full-Stack Developer</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Vel nesciunt hic non fugiat, cumque aspernatur corrupti iure debitis modi quae officiis <br> suscipit error repudiandae nostrum consectetur. <br>Corporis porro aut autem?</p>
-                    <button>Get In Touch</button>
+            <section id="home" class="bg-gray-100 relative w-full h-[500px] flex justify-between">
+                <div class="w-1/2 h-full flex flex-col justify-center px-12 lg:px-24">
+                    <h1 class="text-3xl font-bold mb-6">Full-Stack Developer</h1>
+                    <p class="text-lg mb-8 py-13 text-gray-400">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                        Vel nesciunt hic non fugiat, cumque aspernatur corrupti iure debitis modi quae officiis <br>
+                        suscipit error repudiandae nostrum consectetur. <br>
+                        Corporis porro aut autem?
+                    </p>
+                    <button class="bg-[#2563eb] text-white w-fit px-6 py-2 rounded-md hover:bg-[#183b84] hover:cursor-pointer">
+                        Get In Touch
+                    </button>
                 </div>
-                <div class="hero-image">
-                    <img src="https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png" alt="Tom Mizrahi">
+                <div class="w-1/2 h-full flex items-center justify-center">
+                    <div class="w-72 h-72 rounded-full">
+                        <img class="w-full h-full object-cover" src="https://www.iconpacks.net/icons/2/free-user-icon-3296-thumb.png" alt="User Profile">
+                    </div>
                 </div>
             </section>
 
@@ -85,7 +94,7 @@
             </section>
 
             <!-- Projects Section -->
-            <section id="projects" class="projects-section">
+            <!-- <section id="projects" class="projects-section">
                 <h2>My Projects</h2>
                 <div class="projects-grid">
                     <div class="project-card">
@@ -121,10 +130,10 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
 
             <!-- Contact Section -->
-            <section id="contact" class="contact-section">
+            <!-- <section id="contact" class="contact-section">
                 <h2>Get In Touch</h2>
                 <div class="contact-wrapper">
                     <form class="contact-form">
@@ -171,12 +180,12 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
         </main>
 
         <!-- Footer -->
-        <footer>
+        <!-- <footer>
             <p>© 2026 Tom Mizrahi. All rights reserved.</p>
-        </footer>
+        </footer> -->
     </body>
 </html>
