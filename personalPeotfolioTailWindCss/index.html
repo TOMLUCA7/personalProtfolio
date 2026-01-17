@@ -8,22 +8,24 @@
 </head>
     <body class="min-h-screen">
         <!-- Header Nav Bar -->
-        <header class="bg-white justify-between flex py-7 top-0 z-10 shadow-xl sm:">
-            <h1 class="text-[#2563eb] text-3xl ml-20">Tom Mizrahi</h1>
-            <div class="nav-container">
-                <div class="hidden">
-                   <svg xmlns="http://www.w3.org/2000/svg" width="25" viewBox="0 0 448 512"><path fill="#2563eb" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+        <header class="bg-white justify-between flex items-center py-7 sticky top-0 z-50 shadow-xl w-full">
+            <h1 class="text-[#2563eb] text-3xl ml-6 md:ml-20">Tom Mizrahi</h1>
+
+            <div class="mr-6 md:mr-20">
+                <div class="sm:hidden cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" viewBox="0 0 448 512">
+                        <path fill="#2563eb" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/>
+                    </svg>
                 </div>
 
-                <nav class="flex gap-x-10 text-lg mr-20 text-gray-500">
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#contact">Contact</a>
+                <nav class="hidden sm:flex gap-x-10 text-lg text-gray-500">
+                    <a href="#home" class="hover:text-[#2563eb] transition">Home</a>
+                    <a href="#about" class="hover:text-[#2563eb] transition">About</a>
+                    <a href="#projects" class="hover:text-[#2563eb] transition">Projects</a>
+                    <a href="#contact" class="hover:text-[#2563eb] transition">Contact</a>
                 </nav>
             </div>
         </header>
-
         <!-- Content Info Section -->
         <main>
 
