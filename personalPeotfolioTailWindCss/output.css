@@ -727,6 +727,21 @@
       padding-inline: calc(var(--spacing) * 12);
     }
   }
+  .md\:px-22 {
+    @media (width >= 48rem) {
+      padding-inline: calc(var(--spacing) * 22);
+    }
+  }
+  .md\:px-32 {
+    @media (width >= 48rem) {
+      padding-inline: calc(var(--spacing) * 32);
+    }
+  }
+  .md\:px-300 {
+    @media (width >= 48rem) {
+      padding-inline: calc(var(--spacing) * 300);
+    }
+  }
   .md\:py-0 {
     @media (width >= 48rem) {
       padding-block: calc(var(--spacing) * 0);
